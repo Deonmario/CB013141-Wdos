@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Sri Lankan Leopard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="leopard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400&family=Kurale&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="short icon" type="images/png" href="images/logo.png">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</header>
+<body class="gay">
+    <section class="header"><!-- navbar -->
+        <div class="swiper">
+            <div class="slider">
+                <div class="slide"><img src="images/leopard face.jpg"  class="slideImg"></div>
+            </div>
+            <div class="overlay">
+                <nav id="navig">
+                    <a href="home.html"><img src="images/logo.png"></a>
+                    <div class="nav">
+                        <ul id="menu">
+                            <li><a href="home.html">Home</a></li>
+                            <li><a href="wildlife.html">Sri Lankan Wildlife</a></li>
+                            <li><a href="conservation.html">Conservation</a></li>
+                            <li><a href="leopard.html">Leopard</a></li>
+                            <li><a href="animals.html">Animals</a></li>
+                            <li><a href="login.html">Login</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+    </section>
+    <section>
+        <div class="cont" id="height"> <!--3 sub section-->
+            <div class="row">
+                <div class="cont-col">
+                    <img src="images/wilpathu leopard.JPG">
+                </div>
+                <div class="cont-col">
+                    <h2>Wilpattu National Park</h2>
+                    <p>Ranging over 131 thousand hectares, it is Sri Lanka's largest and one of the oldest protected areas. The park consists of five blocks declared between 1938-1973 under the Fauna and Flora Protection Ordinance and is managed by the Department of Wildlife Conservation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="cont"> <!--3 sub section-->
+            <div class="row">
+                <div class="cont-col">
+                    <img src="images/leopard yala.JPG">
+                </div>
+                <div class="cont-col">
+                    <h2>Yala National Park</h2>
+                    <p>Yala National Park is one of the most well-known and visited national parks in Sri Lanka. It is renowned for its high leopard density, making it a prime location for leopard sightings. The park features a variety of ecosystems, including open grasslands, dense jungles, and coastal areas. Yala is not only home to leopards but also hosts a wide range of other wildlife, including elephants, sloth bears, and numerous bird species. The park is divided into several blocks, with Block 1 being particularly famous for leopard encounters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="cont"> <!--3 sub section-->
+            <div class="row">
+                <div class="cont-col">
+                    <img src="images/horton leopard.JPG">
+                </div>
+                <div class="cont-col">
+                    <h2>Horton Plains National Park</h2>
+                    <p>Horton Plains National Park, a UNESCO World Heritage Site, is characterized by its montane grasslands and cloud forests. While it may not be as well-known for leopard sightings as some other parks, Horton Plains provides a unique and picturesque setting for encountering these big cats. The park is also home to sambar deer, wild boars, and various endemic bird species. The relatively open landscapes of Horton Plains offer a different experience compared to the more densely vegetated parks, making it a captivating destination for nature enthusiasts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sub-section" id="hieght"> <!--2 sub section-->
+        <div class="row-two">
+            <div class="cols">
+                <h2>Poaching</h2>
+                <img src="images/poaching.jpg">
+                <p>Poaching refers to the illegal hunting, capturing, or killing of wild animals, often driven by a demand for their body parts, skins, or other products. This illegal activity poses a significant threat to many species, including leopards, elephants, and rhinoceroses.</p> 
+            </div>
+            <div class="cols">
+                <h2>Consequences</h2>
+                <img src="images/leopard3.jpg">
+                <p><li>Strengthening Law Enforcement: Governments and conservation organizations work together to strengthen anti-poaching laws and increase law enforcement efforts. This includes deploying wildlife rangers and using technology like camera traps and drones for surveillance.
+                   <li>Community Engagement and Education: Involving local communities in conservation efforts is crucial. Educating communities about the importance of wildlife and providing alternative livelihoods can reduce the incentive for individuals to engage in poaching.
+                   <li>International Collaboration: Many wildlife species migrate across borders. International collaboration is essential to combat poaching effectively. Countries work together to share intelligence, coordinate efforts, and implement conservation strategies.
+                   </li>
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <p>&copy; 2024 Sri Lankan Wildlife - Mario. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="https://x.com/wnpssl?s=20" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/wnpssl" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/wnpssl" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://youtu.be/Lg8sLB2yz0U?si=J-IAZKqsGSfJAXs0" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </p>
+        
+    </footer>
+        <script>
+            var navig = document.getElementById("navig");
+            var menu = document.getElementById("menu");
+
+        window.onscroll=function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navig.classList.add("sticky")
+            }
+            else{
+                navig.classList.remove("sticky")
+            }
+        }
+        </script>
+</body>
+<!-- Referencing!
+    Wikipedia. (2020). Wildlife of Sri Lanka. [online] Available at: https://en.wikipedia.org/wiki/Wildlife_of_Sri_Lanka.
+    Anon, (n.d.). Department of Wildlife Conservation – We Protect Future! [online] Available at: https://www.dwc.gov.lk.
+    Mahela (n.d.). The wildlife of Sri Lanka. [online] www.mahoora.lk. Available at: https://www.mahoora.lk/blog/the-wildlife-of-sri-lanka.html.
+    www.wildlifetourssrilanka.com. (n.d.). Wildlife in Sri Lanka | Wildlife Highlights. [online] Available at: https://www.wildlifetourssrilanka.com/wildlife/wildlife-in-sri-lanka.html.
+    -->
+</html>

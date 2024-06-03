@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--main area-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animals in Sri Lanka</title>
+        <link rel="stylesheet" href="animals.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="short icon" type="images/png" href="images/logo.png">
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </head>
+        <section class="header"><!-- navbar -->
+            <div class="main">
+                <div class="main img"><img src="images/animals page.jpg"></div>
+            </div>
+                <div class="navbar">
+                    <nav id="navig">
+                        <a href="home.html"><img src="images/logo.png"></a>
+                        <div class="nav">
+                            <ul id="menu">
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="wildlife.html">Sri Lankan Wildlife</a></li>
+                                <li><a href="conservation.html">Conservation</a></li>
+                                <li><a href="leopard.html">Leopard</a></li>
+                                <li><a href="animals.html">Animals</a></li>
+                                <li><a href="login.html">Login</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+        </section>
+        <br>
+        <section class="sub-topic">  
+            <h2>Indigenous Animals in Sri Lanka</h2>
+            <div class="row">
+                <div class="gal">
+                    <img src="images/loris sl.jpg">
+                </div>
+                <div class="gal">
+                    <img src="images/sloth bear.jpg">
+                </div>
+                <div class="gal">
+                    <img src="images/monkeys.jpg">
+                </div>
+                <div class="gal">
+                    <img src="images/spurfowl.jpg">
+                </div>
+            </div>
+            <p>
+                <li>Sri Lanka, a tropical paradise in South Asia, is known for its vibrant culture and diverse indigenous animals. The island nation, surrounded by the Indian Ocean, has a unique biodiversity, including elephants and leopards. This introduction explores the significance, habitats, and efforts to preserve and protect these extraordinary species amidst environmental challenges.</li>
+            </p>
+        </section>
+        <section class="sub-sections" id="hieght"> 
+            <div class="row">
+                <div class="col">
+                    <a href="yala.html"><img src="images/sri_lanka_forests.jpg">
+                    <h2>Yala National Park</h2>
+                </div>
+                <div class="col">
+                    <a href="wilp.html"><img src="images/deer1.jpg">
+                    <h2>Wilpattu National Park</h2>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Sri Lankan Wildlife - Mario. All rights reserved.</p>
+            <p>Follow us on 
+                <a href="https://x.com/wnpssl?s=20" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/wnpssl" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/wnpssl" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://youtu.be/Lg8sLB2yz0U?si=J-IAZKqsGSfJAXs0" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </p>
+            
+        </footer>
+        <script>
+            var navig = document.getElementById("navig");
+            var menu = document.getElementById("menu");
+
+        window.onscroll=function(){
+            if(window.pageYOffset >= menu.offsetTop){
+                navig.classList.add("sticky")
+            }
+            else{
+                navig.classList.remove("sticky")
+            }
+        }
+        </script>
+        <!-- Referencing!
+        Wikipedia. (2020). Wildlife of Sri Lanka. [online] Available at: https://en.wikipedia.org/wiki/Wildlife_of_Sri_Lanka.
+        Anon, (n.d.). Department of Wildlife Conservation – We Protect Future! [online] Available at: https://www.dwc.gov.lk.
+        Mahela (n.d.). The wildlife of Sri Lanka. [online] www.mahoora.lk. Available at: https://www.mahoora.lk/blog/the-wildlife-of-sri-lanka.html.
+        www.wildlifetourssrilanka.com. (n.d.). Wildlife in Sri Lanka | Wildlife Highlights. [online] Available at: https://www.wildlifetourssrilanka.com/wildlife/wildlife-in-sri-lanka.html.
+        -->
+
+</html>

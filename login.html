@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<div class="navbar">
+    <nav id="navig">
+        <div class="nav">
+            <ul id="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="wildlife.html">Sri Lankan Wildlife</a></li>
+                <li><a href="conservation.html">Conservation</a></li>
+                <li><a href="leopard.html">Leopard</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/alpine.min.js" defer></script>
+    <script src="app.js" defer></script>
+</body>
+</html>
+
